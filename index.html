@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>2048 ver1</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="option">
+            <div id="time">
+                <label id='title'>Time:</label>
+                <input type="text" id='txttime' value='00:00:00'>
+            </div>
+            <div id="gameoption">
+            <select name="list" id="list">
+                <option value="4">4 x 4</option>
+                <option value="5">5 x 5</option>
+                <option value="6">6 x 6</option>
+            </select>
+            </div>
+            <div id="bt">
+                <!-- <button id='newgame' onclick='newgame();'>NEW GAME</button> -->
+                <button id='newgame' onclick="newgame();">NEW GAME</button>
+            </div>
+        </div>
+
+        
+
+
+        <div id="status">
+            <h1 id='st'>GAME OVER</h1>
+        </div>
+        <div id="contain">
+            <table id="gameboard">
+                
+            </table>
+        </div>
+
+        
+
+    </body>
+    <script src="game.js"></script>
+</html>
