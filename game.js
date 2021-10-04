@@ -636,7 +636,7 @@ function CONTROL(event) {
 
 
 function newgame() {
-    var r = document.getElementById('list').value;
+    var r = parseInt(document.getElementById('list').value); // Use parseInt convert string to number
     firstload(r,r);
 }
 
